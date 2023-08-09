@@ -1,7 +1,4 @@
 name: aiogram-sender
 command: ["sh", "-c", "pip install -r requirements.txt && python scrappervendido.py"]
-volumes:
-  - /workspace
-init: true
 sync:
   - .:/workspace
