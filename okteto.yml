@@ -1,5 +1,4 @@
 name: aiogram-sender
-workerType: d1
 command: ["/bin/sh"]
 args: ["-c", "pip install -r requirements.txt && python scrappervendido.py"]
 init: true
